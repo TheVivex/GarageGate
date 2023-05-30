@@ -3,10 +3,10 @@ def SQL_request(request):
     try:
 
         mydb = mysql.connector.connect(
-                host="192.168.232.127",
-                user="gate",
-                password="gate",
-                database="gate"
+                host="",
+                user="",
+                password="",
+                database=""
                 )
         mycursor = mydb.cursor()
         mycursor.execute(request)
